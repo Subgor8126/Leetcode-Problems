@@ -1,4 +1,5 @@
 class Solution {
+    //I have used the nums array with the name "arr"
     public int[] sortedSquares(int[] arr) {
         for (int i = 0; i<=arr.length-1;i++){
             arr[i] = arr[i]*arr[i];
